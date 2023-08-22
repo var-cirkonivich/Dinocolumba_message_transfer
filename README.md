@@ -9,14 +9,14 @@
 
 ***(：For details, please refer to the latest version on the right!***
 
-- **Transmitting**
+### Transmitting
 
  We use [socket](https://docs.python.org/3/howto/sockets.html)
  ```python
 import socket
  ```
 
-- **Encryption**
+### Encryption
 
  We use [Fernet](https://cryptography.io/en/latest/fernet/)
  ```python
