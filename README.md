@@ -11,7 +11,18 @@
 
 - **Transmitting**
 
+ We use [socket](https://docs.python.org/3/howto/sockets.html)
+ ```python
+import socket
+ ```
+
 - **Encryption**
+
+ We use [Fernet]([https://docs.python.org/3/howto/sockets.html](https://cryptography.io/en/latest/fernet/))
+ ```python
+from cryptography.fernet import Fernet
+ ```
+
 
 ══════════════
 
