@@ -18,7 +18,7 @@ import socket
 
 - **Encryption**
 
- We use [Fernet]([https://docs.python.org/3/howto/sockets.html](https://cryptography.io/en/latest/fernet/))
+ We use [Fernet](https://cryptography.io/en/latest/fernet/)
  ```python
 from cryptography.fernet import Fernet
  ```
@@ -51,4 +51,3 @@ from cryptography.fernet import Fernet
 
 𝕄𝕒𝕕𝕖　𝕓𝕪： { _Лютомисл_Пахомав_ }
 
-𝕍𝕖𝕣𝕤𝕚𝕠𝕟： { _var-lyutomisl-pakhomav/Dinocolumba.message.transfer_I_ }
