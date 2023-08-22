@@ -26,8 +26,17 @@
 
 # Attention：
 
-- NON
+> [!IMPORTANT]
+> •　Please enter the correct IP address ( If it's a local machine, you can send the IP address as `localhost` ) .
+> •　Please enter the correct dynamic port number ( Please enter a positive integer between `1024` and `65535` ) .
+
+> [!WARNING]
+> Please follow the instructions provided in the program's usage guide, otherwise errors may occur !
+
+> [!NOTE]
+> If you have any questions regarding this program, feel free to contact us for us to improve your experience.
 
 ══════════════
 
 𝕄𝕒𝕕𝕖　𝕓𝕪： { _Лютомисл_Пахомав_ }
+𝕍𝕖𝕣𝕤𝕚𝕠𝕟： { _var-lyutomisl-pakhomav/Dinocolumba.message.transfer_I_ }
