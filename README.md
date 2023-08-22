@@ -9,8 +9,6 @@
 
 ══════════════
 
-　
-
 # Instructions：
 
 ***(：For details, please refer to the latest version on the right!***
@@ -35,8 +33,6 @@ from cryptography.fernet import Fernet
 
 ══════════════
 
-　
-
 # VersionList：
 
 | Version | Date | File | Content |
@@ -47,8 +43,6 @@ from cryptography.fernet import Fernet
 　
 
 ══════════════
-
-　
 
 # Attention：
 
@@ -65,8 +59,6 @@ from cryptography.fernet import Fernet
 　
 
 ══════════════
-
-　
 
 𝕄𝕒𝕕𝕖　𝕓𝕪： { _Лютомисл_Пахомав_ }
 
