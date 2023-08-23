@@ -37,8 +37,8 @@ from cryptography.fernet import Fernet
 
 | Version | Date | File | Content |
 | --- | --- | --- | --- |
-| v-1.0 | 23.08.22:5 | `Dinocolumba_send_I` `Dinocolumba_receive_I` | Designed the basic message transmission structure. |
-| v-2.0 | 23.08.22:7 | `Dinocolumba_send_II` `Dinocolumba_receive_II` | Added encryption using the `Fernet` Symmetric-key algorithm method for basic security in message transmission. |
+| v-1.0.0 | 23.08.22:5 | `Dinocolumba_send_I` `Dinocolumba_receive_I` | Designed the basic message transmission structure. |
+| v-1.1.0 | 23.08.22:7 | `Dinocolumba_send_II` `Dinocolumba_receive_II` | Added encryption using the `Fernet` Symmetric-key algorithm method for basic security in message transmission. |
 
 　
 
