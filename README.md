@@ -54,8 +54,8 @@ def caesar_decrypt(text, shift)
 # Attention：
 
 > [!IMPORTANT]
-> •　Please enter the correct IP address ( If it's a local machine, you can send the IP address as `localhost` ) .　 　 　 　 　
-> •　Please enter the correct dynamic port number ( Please enter a positive integer between `1024` and `65535` ) .
+> - Please enter the correct IP address ( If it's a local machine, you can send the IP address as `localhost` ) .　 　 　 　 　
+> - Please enter the correct dynamic port number ( Please enter a positive integer between `1024` and `65535` ) .
 
 > [!WARNING]
 > Please follow the instructions provided in the program's usage guide, otherwise errors may occur !
