@@ -47,6 +47,7 @@ def caesar_decrypt(text, shift)
 | v-1.0.1 | 23.08.22:19 | `Dinocolumba_send_II` `Dinocolumba_receive_II` | Added encryption using the `Fernet` Symmetric-key algorithm method for basic security in message transmission. |
 | v-1.0.2 | 23.08.23:17 | `Dinocolumba_send_IIi` `Dinocolumba_receive_IIi` | Added encryption using the `Caesar cipher` Substitution cipher method, scrambling both the public and private keys. |
 | v-1.1.0 | 23.08.24:10 | `Dinocolumba_send_J` `Dinocolumba_receive_J` | Optimized the transmission process to support multiple message transmissions and removed `Fernet` for ease of future updates. |
+
 　
 
 ══════════════
