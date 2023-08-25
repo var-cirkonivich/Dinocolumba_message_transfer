@@ -83,7 +83,7 @@ from nltk.corpus import words
 > - For detailed precautions, please refer to its version !
 
 > [!NOTE]
-> If you have any questions regarding this program, feel free to contact us for us to improve your experience.
+> - If you have any questions regarding this program, feel free to contact us for us to improve your experience.
 
 　
 
