@@ -14,9 +14,9 @@
 
 　𝖀 [socket](https://docs.python.org/3/howto/sockets.html)：Used for establishing communication and transmitting messages.
 
-　𝖀 [subprocess](https://docs.python.org/3/library/subprocess.html)：
+　𝖀 [subprocess](https://docs.python.org/3/library/subprocess.html)：Used to allow the creation of new processes, connecting their input, output, error pipes, and obtaining their return codes.
 
-　𝖀 [ast](https://docs.python.org/3/library/ast.html)：
+　𝖀 [ast](https://docs.python.org/3/library/ast.html)：Used to assist Python programs in processing the abstract syntax tree of Python syntax.
 
 　𝖀 [Fernet](https://cryptography.io/en/latest/fernet/)：Used for encrypting using the Symmetric-key algorithm method.
 
@@ -26,7 +26,7 @@
 
 　𝖀 [Random](https://docs.python.org/3/library/random.html)：Used for generating random numbers or letters, etc.
 
-　𝖀 [nltk](https://pypi.org/project/nltk/)：
+　𝖀 [nltk](https://pypi.org/project/nltk/)：Used to fetch the title_word.
 
 　𝖀 [hashlib](https://docs.python.org/3/library/hashlib.html)：Used for performing hash algorithms.
 
