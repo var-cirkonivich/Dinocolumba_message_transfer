@@ -12,23 +12,25 @@
 
 ***(：For details, please refer to the latest version on the right!***
 
- 　𝖀 [socket](https://docs.python.org/3/howto/sockets.html)：
+ 　𝖀 [socket](https://docs.python.org/3/howto/sockets.html)：Used for establishing communication and transmitting messages.
 
  　𝖀 [subprocess](https://docs.python.org/3/library/subprocess.html)：
 
  　𝖀 [ast](https://docs.python.org/3/library/ast.html)：
 
- 　𝖀 [Fernet](https://cryptography.io/en/latest/fernet/)：
+ 　𝖀 [Fernet](https://cryptography.io/en/latest/fernet/)：Used for encrypting using the Symmetric-key algorithm method.
 
- 　𝖀 [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) :
+ 　𝖀 [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) : Used for encrypting using the Substitution cipher method.
 
- 　𝖀 [Random](https://docs.python.org/3/library/random.html)：
+   𝖀 [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) : Used for encrypting using the Stream cipher method.
+
+ 　𝖀 [Random](https://docs.python.org/3/library/random.html)：Used for generating random numbers or letters, etc.
 
  　𝖀 [nltk](https://pypi.org/project/nltk/)：
 
- 　𝖀 [hashlib](https://docs.python.org/3/library/hashlib.html)：
+ 　𝖀 [hashlib](https://docs.python.org/3/library/hashlib.html)：Used for performing hash algorithms.
 
- 　𝖀 [base64](https://docs.python.org/3/library/base64.html)：
+ 　𝖀 [base64](https://docs.python.org/3/library/base64.html)：Used for encoding binary data into printable ASCII characters.
 　
 
 ══════════════
