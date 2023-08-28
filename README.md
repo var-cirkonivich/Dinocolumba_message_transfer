@@ -11,58 +11,23 @@
 
 ***(：For details, please refer to the latest version on the right!***
 
-　
-### •　Transmitting
+ 　𝖀 [socket](https://docs.python.org/3/howto/sockets.html)：
 
- 　- [socket](https://docs.python.org/3/howto/sockets.html)：
- ```python
-import socket
- ```
+ 　𝖀 [subprocess](https://docs.python.org/3/library/subprocess.html)：
 
- 　- [subprocess](https://docs.python.org/3/library/subprocess.html)：
- ```python
-import subprocess
- ```
+ 　𝖀 [ast](https://docs.python.org/3/library/ast.html)：
 
- 　- [ast](https://docs.python.org/3/library/ast.html)：
- ```python
-import ast
- ```
+ 　𝖀 [Fernet](https://cryptography.io/en/latest/fernet/)：
 
-　
-### •　Encryption
+ 　𝖀 [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) :
 
- 　- [Fernet](https://cryptography.io/en/latest/fernet/)：
- ```python
-from cryptography.fernet import Fernet
- ```
+ 　𝖀 [Random](https://docs.python.org/3/library/random.html)：
 
- 　- [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) :
- ```python
-def caesar_decrypt(text, shift)
-# These are self-contained functions within the program, no need for imports.
- ```
+ 　𝖀 [nltk](https://pypi.org/project/nltk/)：
 
- 　- [Random](https://docs.python.org/3/library/random.html)：
- ```python
-import random
- ```
+ 　𝖀 [hashlib](https://docs.python.org/3/library/hashlib.html)：
 
- 　- [nltk](https://pypi.org/project/nltk/)：
- ```python
-import nltk
-from nltk.corpus import words
- ```
-
- 　- [hashlib](https://docs.python.org/3/library/hashlib.html)：
- ```python
-import hashlib
- ```
-
- 　- [base64](https://docs.python.org/3/library/base64.html)：
- ```python
-import base64
- ```
+ 　𝖀 [base64](https://docs.python.org/3/library/base64.html)：
 　
 
 ══════════════
