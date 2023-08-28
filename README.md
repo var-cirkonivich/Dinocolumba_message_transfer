@@ -14,7 +14,7 @@
 
 　𝖀 [socket](https://docs.python.org/3/howto/sockets.html)：Used for establishing communication and transmitting messages.
 
-　𝖀 [subprocess](https://docs.python.org/3/library/subprocess.html)：Used to allow the creation of new processes, connecting their input, output, error pipes, and obtaining their return codes.
+　𝖀 [subprocess](https://docs.python.org/3/library/subprocess.html)：Used to allow the creation of new processes, connecting their pipes, and obtaining return codes.
 
 　𝖀 [ast](https://docs.python.org/3/library/ast.html)：Used to assist Python programs in processing the abstract syntax tree of Python syntax.
 
