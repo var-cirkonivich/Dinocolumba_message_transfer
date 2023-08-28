@@ -3,6 +3,7 @@
 # Introduction：
 
 - This is an useless program to transmitting your message.
+- When transmitting messages again, encryption will be performed using the Symmetric-key algorithm method to ensure secure transmission.
 　
 
 ══════════════
