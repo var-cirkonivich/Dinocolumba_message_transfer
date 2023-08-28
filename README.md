@@ -3,7 +3,6 @@
 # Introduction：
 
 - This is an useless program to transmitting your message.
-
 　
 
 ══════════════
@@ -54,6 +53,16 @@ import random
 import nltk
 from nltk.corpus import words
  ```
+
+ 　- [hashlib](https://docs.python.org/3/library/hashlib.html)：
+ ```python
+import hashlib
+ ```
+
+ 　- [base64](https://docs.python.org/3/library/base64.html)：
+ ```python
+import base64
+ ```
 　
 
 ══════════════
@@ -67,6 +76,7 @@ from nltk.corpus import words
 | v-1.0.2 | 23.08.23:17 | `Dinocolumba_send_IIi` `Dinocolumba_receive_IIi` | Added encryption using the `Caesar cipher` Substitution cipher method, scrambling both the public and private keys. |
 | v-1.1.0 | 23.08.24:10 | `Dinocolumba_send_J` `Dinocolumba_receive_J` | Optimized the transmission process to support multiple message transmissions and removed `Fernet` for ease of future updates. |
 | v-1.2.0 | 23.08.25:09 | `Dinocolumba_send_1.2.0` `Dinocolumba_receive_1.2.0` `Dinocolumba_commcode_I` `Dinocolumba_decode_I`| This program includes the addition of a feature to generate the `Communication code`, utilizing `Fernet` for Symmetric-key algorithm encryption and generating `key words`. |
+| v-1.2.1 | 23.08.28:19 | `Dinocolumba_send_1.2.1` `Dinocolumba_receive_1.2.1` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Enhanced encryption, improved key management, added checksum, introduced usernames, and implemented a series of measures for enhancement. |
 　
 
 ══════════════
