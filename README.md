@@ -1,6 +1,6 @@
 　
 
-# Introduction：
+# 🔗 Introduction：
 
 - This is an useless program to transmitting your message.
 - When transmitting messages again, encryption will be performed using the Symmetric-key algorithm method to ensure secure transmission.
@@ -8,7 +8,7 @@
 
 ══════════════
 
-# Instructions：
+# ℹ️ Instructions：
 
 ***(：For details, please refer to the latest version on the right!***
 
@@ -35,7 +35,7 @@
 
 ══════════════
 
-# VersionList：
+# 📑 VersionList：
 
 | Version | Date | File | Content |
 | --- | --- | --- | --- |
@@ -50,7 +50,7 @@
 
 ══════════════
 
-# Attention：
+# ⚠️ Attention：
 
 > [!IMPORTANT]
 > - Please enter the correct IP address ( If it's a local machine, you can send the IP address as `localhost` ) .　 　 　 　 　
