@@ -4,6 +4,7 @@
 
 - This is an useless program to transmitting your message.
 - When transmitting messages again, encryption will be performed using the Symmetric-key algorithm method to ensure secure transmission.
+
 　
 
 ══════════════
@@ -31,6 +32,7 @@
 　𝖀 [hashlib](https://docs.python.org/3/library/hashlib.html)：Used for performing hash algorithms.
 
 　𝖀 [base64](https://docs.python.org/3/library/base64.html)：Used for encoding binary data into printable ASCII characters.
+
 　
 
 ══════════════
@@ -47,6 +49,8 @@
 | v-1.2.1 | 23.08.28:19 | `Dinocolumba_send_1.2.1` `Dinocolumba_receive_1.2.1` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Enhanced encryption, improved key management, added checksum, introduced usernames, and implemented a series of measures for enhancement. |
 | v-1.2.1₁ | 23.08.29:09 | `Dinocolumba_send_1.2.11` `Dinocolumba_receive_1.2.11` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Fixed the bug that prevented invoking its decryption process. |
 | v-1.2.1₂ | 23.08.29:10 | `Dinocolumba_send_1.2.11` `Dinocolumba_receive_1.2.11` `Dinocolumba_commcode_Ⅲ` `Dinocolumba_decode_Ⅱ`| Allows input of various characters as the initial code, added the first Easter egg, and optimized file names. |
+
+　
 
 ══════════════
 
