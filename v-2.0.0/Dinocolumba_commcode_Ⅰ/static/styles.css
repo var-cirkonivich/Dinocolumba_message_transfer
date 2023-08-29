@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("background.jpg"); /* 替换为您的图片路径 */
+  background-size: cover; /* 调整图片大小以覆盖整个背景 */
+  background-repeat: no-repeat; /* 防止图片重复平铺 */
+  background-color: #212020; /* 白色背景作为备用 */
+}
+
+/* 标题样式 */
+.initial-code {
+  font-size: 24px;
+  color: #333;
+  margin: 0; /* 移除标题的外边距 */
+  padding: 0; /* 移除标题的内边距 */
+}
+
+.container {
+  text-align: center;
+}
+
+.rectangle {
+  width: 300px;
+  background-color: #ffffff; /* 白色长方形背景 */
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 80%;
+  max-height: 200px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #878a83; /* 白色输入框背景 */
+  border: 3px solid #000000; /* 白色边框 */
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Cascadia Mono", sans-serif; 
+  width: 100%;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  min-width: 200px;
+  background: #f4c283;
+  border: 0px solid #000000;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s;
+  padding: 10px 20px;
+}
+
+.btn span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #70a3d2;
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+}
+
+.btn:hover span {
+  transform: translateY(0) scale(2);
+}
+
+.btn span:nth-child(1) {
+  --n: 1;
+}
+.btn span:nth-child(2) {
+  --n: 2;
+}
+.btn span:nth-child(3) {
+  --n: 3;
+}
+.btn span:nth-child(4) {
+  --n: 4;
+}
+
+#result {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 10px;
+}

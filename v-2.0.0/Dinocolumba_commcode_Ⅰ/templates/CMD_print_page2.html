@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <herd>
+        <meta charset = "UTF-8"></meta>
+        <title>Dinocolumba_message_transfer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="{{ url_for('static', filename='copy.js') }}" defer></script>
+        <script>
+            function openNewWindow() {
+              var inputText = document.getElementById("inputText").value;
+              var url = "/result.html?input=" + encodeURIComponent(inputText);
+              window.open(url, "_blank");
+            }
+        </script>
+    </herd>
+    <body>
+    <div class="container">
+        <div class="rectangle">
+            <img src="static/{DC}.png" alt="图片">
+                <!--Preparation work-->
+                <div style="font-family: Cascadia Mono, sans-serif; font-size: 16px; color: #333;">
+                    <h2 class="initial-code">Communication_code:</h2>
+                    <div id="result">{{ result }}</div>
+                    <button class="btn" style="font-family: Cascadia Mono, sans-serif" id="copyButton" onclick="sendDataToPython()">Copy the code<span></span><span></span><span></span><span></span></button>
+               </div>
+            </div>
+        </div>  
+    </div>
+    </body>
+</html>

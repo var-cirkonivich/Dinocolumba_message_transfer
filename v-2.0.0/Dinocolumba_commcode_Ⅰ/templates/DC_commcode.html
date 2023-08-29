@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <herd>
+        <meta charset = "UTF-8"></meta>
+        <title>Dinocolumba_message_transfer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script>
+            function openNewWindow() {
+              var inputText = document.getElementById("inputText").value;
+              var url = "/result.html?input=" + encodeURIComponent(inputText);
+              window.open(url, "_blank");
+            }
+        </script>
+    </herd>
+    <body>
+    <div class="container">
+        <div class="rectangle">
+            <img src="static/{DC}.png" alt="图片">
+                <!--Preparation work-->
+                <div style="font-family: Cascadia Mono, sans-serif; font-size: 16px; color: #333;">
+                  <!--Ask initial_code-->
+                  <div>
+                      <h2 class="initial-code">Initial Code:</h2>
+                      <br/>
+                      <input type="text" id="ipInput" value="" style="width: 200px">
+                      <br/>
+                      <p></p>
+                  </div>
+                  <button class="btn" style="font-family: Cascadia Mono, sans-serif" id="myButton" onclick="sendDataToPython()">Confirmed<span></span><span></span><span></span><span></span></button>
+                  <p></p>
+                  
+                  <script>
+                    function sendDataToPython() {
+                        const inputValue = document.getElementById("ipInput").value;
+                        fetch("/send-data", {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                            },
+                            body: JSON.stringify({ input: inputValue }),
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            const resultValue = data.CF;
+                            const targetUrl = `/show-result?result=${encodeURIComponent(resultValue)}`;
+                            window.location.href = targetUrl;
+                        });
+                    }
+                </script>
+               </div>
+            </div>
+        </div>  
+    </div>
+    </body>
+</html>
