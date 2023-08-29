@@ -25,14 +25,6 @@
 
 　𝖀 [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) : Used for encrypting using the Stream cipher method.
 
-　𝖀 [Random](https://docs.python.org/3/library/random.html)：Used for generating random numbers or letters, etc.
-
-　𝖀 [nltk](https://pypi.org/project/nltk/)：Used to fetch the title_word.
-
-　𝖀 [hashlib](https://docs.python.org/3/library/hashlib.html)：Used for performing hash algorithms.
-
-　𝖀 [base64](https://docs.python.org/3/library/base64.html)：Used for encoding binary data into printable ASCII characters.
-
 　
 
 ══════════════
@@ -50,6 +42,7 @@
 | v-1.2.1₁ | 23.08.29:09 | `Dinocolumba_send_1.2.11` `Dinocolumba_receive_1.2.11` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Fixed the bug that prevented invoking its decryption process. |
 | v-1.2.1₂ | 23.08.29:10 | `Dinocolumba_send_1.2.11` `Dinocolumba_receive_1.2.11` `Dinocolumba_commcode_Ⅲ` `Dinocolumba_decode_Ⅱ`| Allows input of various characters as the initial code, added the first Easter egg, and optimized file names. |
 | v-2.0.0 | 23.08.29:20 | `Dinocolumba_send_2.0.0` `Dinocolumba_receive_2.0.0` `Dinocolumba_commcode_I (Package_bundle)` `Dinocolumba_decode_Ⅱ`| Added the Dinocolumba_commcode package for obtaining Communication_code using an HTML webpage. |
+
 　
 
 ══════════════
