@@ -45,7 +45,7 @@
 | v-1.1.0 | 23.08.24:10 | `Dinocolumba_send_J` `Dinocolumba_receive_J` | Optimized the transmission process to support multiple message transmissions and removed `Fernet` for ease of future updates. |
 | v-1.2.0 | 23.08.25:09 | `Dinocolumba_send_1.2.0` `Dinocolumba_receive_1.2.0` `Dinocolumba_commcode_I` `Dinocolumba_decode_I`| This program includes the addition of a feature to generate the `Communication code`, utilizing `Fernet` for Symmetric-key algorithm encryption and generating `key words`. |
 | v-1.2.1 | 23.08.28:19 | `Dinocolumba_send_1.2.1` `Dinocolumba_receive_1.2.1` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Enhanced encryption, improved key management, added checksum, introduced usernames, and implemented a series of measures for enhancement. |
-| v-1.2.11 | 23.08.29:09 | `Dinocolumba_send_1.2.11` `Dinocolumba_receive_1.2.11` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Fixed the bug that prevented invoking its decryption process. |
+| v-1.2.1₁ | 23.08.29:09 | `Dinocolumba_send_1.2.11` `Dinocolumba_receive_1.2.11` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Fixed the bug that prevented invoking its decryption process. |
 　
 
 ══════════════
