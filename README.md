@@ -49,7 +49,7 @@
 | v-1.2.1 | 23.08.28:19 | `Dinocolumba_send_1.2.1` `Dinocolumba_receive_1.2.1` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Enhanced encryption, improved key management, added checksum, introduced usernames, and implemented a series of measures for enhancement. |
 | v-1.2.1₁ | 23.08.29:09 | `Dinocolumba_send_1.2.11` `Dinocolumba_receive_1.2.11` `Dinocolumba_commcode_II` `Dinocolumba_decode_II`| Fixed the bug that prevented invoking its decryption process. |
 | v-1.2.1₂ | 23.08.29:10 | `Dinocolumba_send_1.2.11` `Dinocolumba_receive_1.2.11` `Dinocolumba_commcode_Ⅲ` `Dinocolumba_decode_Ⅱ`| Allows input of various characters as the initial code, added the first Easter egg, and optimized file names. |
-
+| v-2.0.0 | 23.08.29:20 | `Dinocolumba_send_2.0.0` `Dinocolumba_receive_2.0.0` `Dinocolumba_commcode_I (Package_bundle)` `Dinocolumba_decode_Ⅱ`| Added the Dinocolumba_commcode package for obtaining Communication_code using an HTML webpage. |
 　
 
 ══════════════
