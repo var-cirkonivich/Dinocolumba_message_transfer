@@ -1,6 +1,6 @@
 　
 
-# 🔗 Introduction：
+# ℹ️ Introduction：
 
 - This is an useless program to transmitting your message.
 - When transmitting messages again, encryption will be performed using the Symmetric-key algorithm method to ensure secure transmission.
@@ -9,21 +9,35 @@
 
 ══════════════
 
-# ℹ️ Instructions：
+# 🔗 Instructions：
 
-***(：For details, please refer to the latest version on the right!***
+### *(：For details, please refer to the latest version on the right!*  
 
-　𝖀 [socket](https://docs.python.org/3/howto/sockets.html)：Used for establishing communication and transmitting messages.
-
-　𝖀 [subprocess](https://docs.python.org/3/library/subprocess.html)：Used to allow the creation of new processes, connecting their pipes, and obtaining return codes.
-
-　𝖀 [ast](https://docs.python.org/3/library/ast.html)：Used to assist Python programs in processing the abstract syntax tree of Python syntax.
-
-　𝖀 [Fernet](https://cryptography.io/en/latest/fernet/)：Used for encrypting using the Symmetric-key algorithm method.
-
-　𝖀 [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher) : Used for encrypting using the Substitution cipher method.
-
-　𝖀 [Enigma](https://en.wikipedia.org/wiki/Enigma_machine) : Used for encrypting using the Stream cipher method.
+   𝖀 [subprocess](https://docs.python.org/3/library/subprocess.html) : Execute shell commands from Python.  
+   
+   𝖀 [time](https://docs.python.org/3/library/time.html) : Access time-related functions.  
+   
+   𝖀 [random](https://docs.python.org/3/library/random.html) : Generate random numbers and values.  
+   
+   𝖀 [nltk](https://pypi.org/project/nltk/) : Natural Language Toolkit for text analysis, providing access to a list of English words.  
+   
+   𝖀 [Flask](https://flask.palletsprojects.com/en/2.3.x/) : Build web applications.  
+   
+   𝖀 [webbrowser](https://docs.python.org/3/library/webbrowser.html) : Open and control web browsers.  
+   
+   𝖀 [Fernet](https://cryptography.io/en/latest/fernet/) : Encrypt and decrypt data using Fernet.  
+   
+   𝖀 [hashlib](https://docs.python.org/3/library/hashlib.html) : Generate hash values (e.g., MD5, SHA-1).  
+   
+   𝖀 [base64](https://docs.python.org/3/library/base64.html) : Encode and decode binary data using Base64.  
+   
+   𝖀 [socket](https://docs.python.org/3/library/socket.html) : Create network sockets for communication.  
+   
+   𝖀 [ast](https://docs.python.org/3/library/ast.html) : Parse and work with abstract syntax trees.  
+   
+   𝖀 [sys](https://docs.python.org/3/library/sys.html) : Access system-specific parameters and functions.  
+   
+   𝖀 [string](https://docs.python.org/3/library/string.html) : Get a collection of ASCII characters (e.g., letters, digits).  
 
 　
 
